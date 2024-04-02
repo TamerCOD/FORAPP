@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shapka">
+        <div class="icon"><img id="ima" src="oshka_logo.png" alt="" height="40px"></div>
+        <div class="app"><p>PAYM-123456</p></div>
+        <div class="lang">
+            <div class="btn_kg"><button class="ln" onclick="location.href='kgsi.html'">KG</button></div>
+            <div class="btn_ru"><button class="ln">RU</button></div>
+            <div class="btn_en"><button class="ln" onclick="location.href='eng.html'">EN</button></div>
+        </div>
+    </div>
+    <div class="form">
+        <h2>Нажмите кнопку ниже для отправки файла, который будет прикреплен к вашей заявке и позволит ускорить процесс ее рассмотрения</h2>
+        <div class="file1">
+            <label for="file" calss="lb"><span>Выбрать файл</span></label>
+            <input type="file" name="file" class="inp_f" id="file">
+        </div>
+        <div class="button">
+            <button class="2" id="bt">Отправить</button>
+        </div>
+
+    </div>
+    <script>
+        document.querySelector('#bt').onclick = function(){
+            alert('Файл успешно добавлен');
+        }
+    </script>
+<div class="AB">
+    <button onclick="location.href='AB-RU.html'">AkchaBUlak</button>
+</div>
+</body>
+</html>
